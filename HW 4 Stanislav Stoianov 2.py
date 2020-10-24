@@ -1,12 +1,10 @@
-file = open('author.txt', 'tw', encoding='utf-8');
-file.write("Стоянов Станислав Степанович\n19ПИ-1\nПрограммная инженерия, факультет компьютерных наук");
-file.close();
+with open('author.txt', 'tw', encoding='utf-8') as file:
+    file.write("Стоянов Станислав Степанович\n19ПИ-1\nПрограммная инженерия, факультет компьютерных наук");
 
-file = open('author.txt', 'r');
+with open('author.txt', 'r', encoding='utf-8') as file:
+    a = set(file.read());
 
-text = file.read();
-a = set(text);
-print("Оригинальный текст:\n" + text + "\nМножество букв и цифр:");
-print(a);
-
-file.close();
+with open('author.txt', 'a', encoding='utf-8') as file:
+    file.write('\n');
+    for char in a:
+        file.write(char);
