@@ -1,6 +1,6 @@
-# Title     : TODO
-# Objective : TODO
-# Created by: stanislav
+# Title     : Howework
+# Objective : Graphs
+# Created by: Stanislav
 # Created on: 11/11/2020
 
 # создаем нормальное распределение
