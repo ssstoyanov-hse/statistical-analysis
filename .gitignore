@@ -262,3 +262,5 @@ po/*~
 .idea/rAvailablePackageCache.xml
 .idea/rGraphicsSettings.xml
 .idea/rSettings.xml
+.RDataFiles/
+.idea/rpackages.xml
