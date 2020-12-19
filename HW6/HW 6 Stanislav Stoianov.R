@@ -5,7 +5,7 @@
 
 # APPLE
 
-aapl <- read.csv(file = "./hw 6 data/AAPL.csv", sep = ",")
+aapl <- read.csv(file = "/home/stanislav/PycharmProjects/statistical-analysis/HW6/data/AAPL.csv", sep = ",")
 
 # График изменения цены
 plot(aapl$Date, aapl$Open, type = "l", xlab = "date", ylab = "apple price")
@@ -28,7 +28,7 @@ message(sprintf("Cтандартное отклонение доходности
 
 # GOOGLE
 
-goog <- read.csv(file = "./hw 6 data/AAPL.csv", sep = ",")
+goog <- read.csv(file = "/home/stanislav/PycharmProjects/statistical-analysis/HW6/data/GOOG.csv", sep = ",")
 
 # График изменения цены
 plot(goog$Date, goog$Open, type = "l", xlab = "date", ylab = "google price")
@@ -51,7 +51,7 @@ message(sprintf("Cтандартное отклонение доходности
 
 # GAZPROM
 
-gazp <- read.csv(file = "./hw 6 data/GAZP.csv", sep = ",")
+gazp <- read.csv(file = "/home/stanislav/PycharmProjects/statistical-analysis/HW6/data/GAZP.csv", sep = ",")
 
 # График изменения цены
 plot(goog$Date, goog$Open, type = "l", xlab = "date", ylab = "gazprom price")
